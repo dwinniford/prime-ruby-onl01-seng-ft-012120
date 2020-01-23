@@ -1,3 +1,3 @@
 def prime(int)
-  int
+  int.prime
 end 
