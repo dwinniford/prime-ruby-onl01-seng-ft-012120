@@ -1,6 +1,10 @@
 def prime?(int)
-  array = (2..int-1).to_a
-  array.none? do |i|
-    int % i == 0 
+  if int > 1 
+    array = (2..int-1).to_a
+    array.none? do |i|
+      int % i == 0 
+    end 
+  else 
+    false 
   end 
 end 
