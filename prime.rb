@@ -1,3 +1,3 @@
 def prime(int)
-  int.prime
+  array = (1..int).split
 end 
